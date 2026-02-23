@@ -1,6 +1,11 @@
 <script>
     import Background from "../lib/Background.svelte";
     import Card from "../lib/Card.svelte";
+    import RevealLogo from "/reveal-black-text.svg";
+    import LucideLogo from "/lucide-logo-light.svg";
+    import SvelteLogo from "/svelte-horizontal.svg";
+    import Clockwork from "/clockwork.jpg";
+    import Code from "/codigo-python-c.jpg";
 </script>
 
 <section>
@@ -18,18 +23,18 @@
                 <div class="contentLayout">
                     <div class="cardLayout">
                         <Card vertical>
-                            <img src="res/reveal-black-text.svg" alt="Logotipo de Reveal.js">
+                            <img src={RevealLogo} alt="Logotipo de Reveal.js">
                             <a href="https://github.com/hakimel/reveal.js/blob/master/LICENSE">Ver licencia</a>
                         </Card>
                         <Card vertical>
                             <div class="horizontal" style="justify-content: center; align-items: center; gap: 1.25rem; width: 100%; height: 100%;">
-                                <img style="height: 65%;" src="res/lucide-logo-light.svg" alt="Logotipo de Lucide">
+                                <img style="height: 65%;" src={LucideLogo} alt="Logotipo de Lucide">
                                 <h3>Lucide</h3>
                             </div>
                             <a href="https://lucide.dev/license">Ver licencia</a>
                         </Card>
                         <Card vertical>
-                            <img src="res/svelte-horizontal.svg" alt="Logotipo de Svelte">
+                            <img src={SvelteLogo} alt="Logotipo de Svelte">
                             <a href="https://github.com/sveltejs/svelte/blob/main/LICENSE.md">Ver licencia</a>
                         </Card>
                     </div>
@@ -44,11 +49,11 @@
                 <div class="contentLayout">
                     <div class="cardLayout">
                         <Card vertical>
-                            <img style="border-radius: 1rem; height: 200px" src="res/clockwork.jpg" alt="Interior de un reloj mecánico">
+                            <img style="border-radius: 1rem; height: 200px" src={Clockwork} alt="Interior de un reloj mecánico">
                             <a href="https://www.freepik.com/free-photo/clockwork_3011934.html">Imagen creada por rawpixel.com</a>
                         </Card>
                         <Card vertical>
-                            <img style="border-radius: 1rem; height: 200px;" src="res/codigo-python-c.jpg" alt="Código de Python en una pantalla">
+                            <img style="border-radius: 1rem; height: 200px;" src={Code} alt="Código de Python en una pantalla">
                             <a href="https://pixabay.com/photos/data-computer-programming-codes-5606639/">Imagen creada por suixin390</a>
                         </Card>
                         <Card vertical>
@@ -66,7 +71,7 @@
     @font-face
     {
         font-family: "Chicle";
-        src: url("/res/Chicle-Regular.ttf");
+        src: url("/Chicle-Regular.ttf");
     }
 
     .contentLayout

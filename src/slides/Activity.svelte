@@ -1,6 +1,10 @@
 <script>
     import Background from "../lib/Background.svelte";
     import Card from "../lib/Card.svelte";
+    import Users from "/users.svg";
+    import Repeat from "/repeat.svg";
+    import QuestionMark from "/question-mark.svg";
+    import Throphy from "/trophy.svg";
 </script>
 
 <section>
@@ -18,15 +22,15 @@
                 <div class="contentLayout">
                     <div class="cardLayout">
                         <Card vertical variant="alt">
-                            <img src="/res/users.svg" alt="Icono de dos personas">
+                            <img src={Users} alt="Icono de dos personas">
                             <p>Hagan parejas</p>
                         </Card>
                         <Card vertical variant="alt">
-                            <img src="/res/repeat.svg" alt="Icono de repetición">
+                            <img src={Repeat} alt="Icono de repetición">
                             <p>Tomen turnos adivinando la función del otro</p>
                         </Card>
                         <Card vertical variant="alt">
-                            <img src="/res/question-mark.svg" alt="Icono de pregunta">
+                            <img src={QuestionMark} alt="Icono de pregunta">
                             <p>Pueden hacer preguntas de sí o no</p>
                         </Card>
                     </div>
@@ -42,7 +46,7 @@
                     <div class="cardLayout">
                         <div></div>
                         <Card vertical variant="alt">
-                            <img src="/res/trophy.svg" alt="Icono de trofeo">
+                            <img src={Throphy} alt="Icono de trofeo">
                             <p>Gana el primero en adivinar la función (o el que más se acerque)</p>
                         </Card>
                         <div></div>

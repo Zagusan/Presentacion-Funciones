@@ -1,6 +1,9 @@
 <script>
     import Background from "../lib/Background.svelte";
     import Card from "../lib/Card.svelte";
+    import Arrow from "/arrow-big-right.svg";
+    import PackagingMachine from "/packaging-closing-machine.svg";
+    import Laptop from "/laptop-code-block.svg";
 </script>
 
 <section>
@@ -21,18 +24,18 @@
                         <Card vertical>
                             <div class="relation">
                                 <div style="color: #000080;">x</div>
-                                <img src="/res/arrow-big-right.svg" alt="Flecha que apunta hacia la derecha">
+                                <img src={Arrow} alt="Flecha que apunta hacia la derecha">
                                 <div style="color: #0f52ba;">y</div>
                             </div>
                             <p>Una relación entre dos valores</p>
                         </Card>
                         <Card vertical>
-                            <img style="width: 60%; margin: 0;" src="/res/packaging-closing-machine.svg" alt="Máquina empaquetadora de cajas">
+                            <img style="width: 60%; margin: 0;" src={PackagingMachine} alt="Máquina empaquetadora de cajas">
                             <p>Una máquina con entradas y salidas</p>
                             <a class="imgCredit" href="https://www.vecteezy.com/vector-art/4578887-packaging-closing-machine">Imagen por Hasan As ari</a>
                         </Card>
                         <Card vertical>
-                            <img style="width: 55%; margin: 0; margin: 20px;" src="/res/laptop-code-block.svg" alt="Laptop mostrando un bloque de código abstracto">
+                            <img style="width: 55%; margin: 0; margin: 20px;" src={Laptop} alt="Laptop mostrando un bloque de código abstracto">
                             <p>Un bloque de código reutilizable</p>
                             <a class="imgCredit" href="https://www.vecteezy.com/vector-art/16321787-meta-description-vector-icon-design">Imagen por Muhammad Usman</a>
                         </Card>
@@ -67,7 +70,7 @@
     @font-face
     {
         font-family: "Chicle";
-        src: url("/res/Chicle-Regular.ttf");
+        src: url("/Chicle-Regular.ttf");
     }
 
     .contentLayout

@@ -17,7 +17,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(/res/clockwork.jpg);
+        background-image: url(/clockwork.jpg);
         background-color: rgba(0, 165, 255, 0.5);
         background-blend-mode: multiply;
         background-size: cover;
@@ -27,7 +27,7 @@
 
     .bg.code
     {
-        background-image: url(/res/codigo-python-c.jpg);
+        background-image: url(/codigo-python-c.jpg);
         background-color: transparent;
     }
 
