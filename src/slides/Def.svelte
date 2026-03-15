@@ -147,9 +147,13 @@
             <Card fullscreen vertical variant="on-bg" gap="2rem" revealId="mainCard">
                 <h2 style="margin-bottom: auto;">¿Cómo definir una función?​</h2>
                 <StepwiseCode
-                    code='print(miFuncion(3, 2)) # Imprime "3 es mayor que 2"
-        print(miFuncion(5, 5)) # Imprime "5 es igual a 5"
-        print(miFuncion(1, 9)) # Imprime "1 es menor que 9"'
+                    code='resultado1 = miFuncion(3, 2)
+        resultado2 = miFuncion(5, 5)
+        resultado3 = miFuncion(1, 9)
+        
+        print(resultado1) # Imprime "3 es mayor que 2"
+        print(resultado2) # Imprime "5 es igual a 5"
+        print(resultado3) # Imprime "1 es menor que 9"'
                 >
                     <p>Así es como se usaría la función</p>
                 </StepwiseCode>
