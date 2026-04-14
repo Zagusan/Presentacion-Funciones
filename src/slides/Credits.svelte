@@ -6,6 +6,8 @@
     import SvelteLogo from "/svelte-horizontal.svg";
     import Clockwork from "/clockwork.jpg";
     import Code from "/codigo-python-c.jpg";
+    import Scale from "/scale.svg";
+    import CC from "/by-nc.svg";
 </script>
 
 <section>
@@ -59,6 +61,25 @@
                         <Card vertical>
                             <h1 style="color: #0f52ba; font-family: 'Chicle';">Tipografía<br>Chicle</h1>
                             <a href="https://fonts.google.com/specimen/Chicle/license">Ver licencia</a>
+                        </Card>
+                    </div>
+                </div>
+            </Card>
+        </Background>
+    </section>
+    <section data-auto-animate>
+        <Background variant="credits">
+            <Card vertical variant="on-bg-border" gap="2rem" revealId="mainCard">
+                <h3>Licencias</h3>
+                <div class="contentLayout">
+                    <div class="cardLayout" style="grid-template-columns: 1fr 1fr;">
+                        <Card vertical>
+                            <img src={Scale} alt="" style="margin: 0; width: 96px; height: 96px;">
+                            <p>Código disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE-MIT.md">licencia MIT</a></p>
+                        </Card>
+                        <Card vertical>
+                            <img src={CC} alt="" style="margin: 0;">
+                            <p>Presentación disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE.md">licencia CC-BY-NC 4.0</a></p>
                         </Card>
                     </div>
                 </div>
