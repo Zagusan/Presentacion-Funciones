@@ -75,11 +75,11 @@
                     <div class="cardLayout" style="grid-template-columns: 1fr 1fr;">
                         <Card vertical>
                             <img src={Scale} alt="" style="margin: 0; width: 96px; height: 96px;">
-                            <p>Código disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE-MIT.md">licencia MIT</a></p>
+                            <p>Código disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Funciones/blob/main/LICENSE-MIT.md" style="color: #0f8a8a !important;">licencia MIT</a></p>
                         </Card>
                         <Card vertical>
                             <img src={CC} alt="" style="margin: 0;">
-                            <p>Presentación disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Bucles/blob/main/LICENSE.md">licencia CC-BY-NC 4.0</a></p>
+                            <p>Presentación disponible bajo la <a href="https://github.com/Zagusan/Presentacion-Funciones/blob/main/LICENSE.md" style="color: #0f8a8a !important;">licencia CC-BY-NC 4.0</a></p>
                         </Card>
                     </div>
                 </div>
